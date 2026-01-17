@@ -1,0 +1,82 @@
+/* *{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+
+
+body{
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+}
+/* Share Style */
+.display-flex{
+    display: flex;
+}
+
+.text-gray{
+    color: #424242;
+}
+
+.text-light-gray{
+    color: #727272;
+
+}
+.bg-light{
+    background-color: rgba(255, 144, 14, 0.1);
+}
+.btn-primary{
+    background-color: #FF900E;
+    color: white;
+    padding: 20px 25px;
+    font-size: 1.25rem;
+    font-weight: 600;
+    border: none;
+    border-radius: 8px;
+}
+
+
+/* header style */
+
+
+/* navbar Style */
+.brand{
+    font-size: 3rem;
+    font-weight: 700;
+}
+.navbar, .navbar ul{
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.navbar ul li{
+    list-style: none;
+}
+
+.navbar, .banner{
+    max-width: 1440px;
+    margin: 0px auto;
+}
+
+.banner-info{
+    text-align: center;
+    max-width: 850px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+.banner h1{
+    font-size: 4rem;
+    font-weight: bold;
+}
+.banner-image{
+    max-width: 100%;
+}
+
+/* Responsive design */
+
+@media screen and (max-width: 576px) {
+    .navbar, .nav-link{
+        flex-direction: column;
+    }
+}
